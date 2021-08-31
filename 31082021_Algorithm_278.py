@@ -1,10 +1,15 @@
+#input values
 n = int(input())
+
+#random no return function for testing
 
 def isBadVersion(m):
     if(m >= 8):
         return True
     else:
         return False
+
+#binary search algo
 
 f = 0
 l = n - 1
